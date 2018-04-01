@@ -1,2 +1,5 @@
-theme: jekyll-theme-cayman
 title: A Red Scarf Shared Something Here
+description: Hope can help you
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-cayman
