@@ -1,5 +1,5 @@
 title: A Red Scarf Shared Something Here
 description: Hope can help you
 show_downloads: false
-google_analytics:
+google_analytics: true
 theme: jekyll-theme-cayman
