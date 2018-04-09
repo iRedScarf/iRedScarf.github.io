@@ -3,7 +3,7 @@ layout: post
 title: "利用AWS搭建私有Shadowsocks服务器实现科学上网完全教程"
 tagline: 
 date: 2018-04-01
-author: 
+author: A Red Scarf
 comments: true
 categories:
 - Tech
