@@ -30,7 +30,7 @@ meta:
 
 　　要注意的是Amazon EC2有一定的使用限制，比如一个月不能超过15G流量（只要你不是天天上网下大文件的话，一般不会超），一个月不能超过 750 个小时，一般使用的话开机一个月也不会超过750个小时（按31日算24*31=744），所以每个月不要超过15G的流量就行了。
 
-![Linux和Windows实例分别免费使用750小时/月，Linux和Windows的实例不会共用免费时间，但两种主机都可多开几个实例，同主机类型的实例会共用时间，例如同时开了2个Linux实例，那么这2个实例只能免费使用半个月，为保不花钱，建议一个账号只开一个实例（意思是一个账号只使用一个地区的IP](https://raw.githubusercontent.com/11900611/images/master/ladder_001.png)
+![Linux和Windows实例分别免费使用750小时/月，Linux和Windows的实例不会共用免费时间，但两种主机都可多开几个实例，同主机类型的实例会共用时间，例如同时开了2个Linux实例，那么这2个实例只能免费使用半个月，为保不花钱，建议一个账号只开一个实例（意思是一个账号只使用一个地区的IP](https://raw.githubusercontent.com/iredscarf/images/master/ladder_001.png)
 
 　　之所以选择AWS，首先是因为它比较稳定，并且它有东京的节点。网上很多其他主机商的节点都远在美国，距离近延迟低是铁律。
 
@@ -44,41 +44,41 @@ meta:
 
 #### 　　2、点击创建免费账户
 
-![ ](https://raw.githubusercontent.com/11900611/images/master/ladder_002.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_002.png)
 
 #### 　　3、按提示输入邮箱、密码和账户名，点击“继续”
 
-![ ](https://raw.githubusercontent.com/11900611/images/master/ladder_003.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_003.png)
 
 #### 　　4、选择个人账户，然后填写下相关信息（注意地址之类的只能用英文填写）
 
-![ ](https://raw.githubusercontent.com/11900611/images/master/ladder_004.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_004.png)
 
 #### 　　5、填写信用卡信息
 
-![ ](https://raw.githubusercontent.com/11900611/images/master/ladder_005.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_005.png)
 
 　　绑定完信用卡之后，信用卡会发生1美元的预付款，但不会入账。我绑定的是VISA的信用卡，支持银联。
 
-![绑定的信用卡除了验证账户的有效性，也是为了支付账户超出免费使用范围后产生的费用，以及免费期过后继续使用的费用。为了防止自己忘了到期时间没能及时停用账户发生扣费，可使用各种虚拟支付卡，验证完即销卡，不想用自己的实体信用卡又不太懂的也可移步某宝搜索“虚拟信用卡”购买和请教卖家，没有信用卡的也可以到某宝购买虚拟信用卡。](https://raw.githubusercontent.com/11900611/images/master/ladder_006.jpg)
+![绑定的信用卡除了验证账户的有效性，也是为了支付账户超出免费使用范围后产生的费用，以及免费期过后继续使用的费用。为了防止自己忘了到期时间没能及时停用账户发生扣费，可使用各种虚拟支付卡，验证完即销卡，不想用自己的实体信用卡又不太懂的也可移步某宝搜索“虚拟信用卡”购买和请教卖家，没有信用卡的也可以到某宝购买虚拟信用卡。](https://raw.githubusercontent.com/iredscarf/images/master/ladder_006.jpg)
 
 #### 　　6、接下来是一个电话验证过程
 
-![ ](https://raw.githubusercontent.com/11900611/images/master/ladder_007.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_007.png)
 
 　　填写完信息后点“立即呼叫我”后，页面上会显示出一个PIN码，别动，系统会自动拨打你的电话，接听后在电话上输入那个PIN码即可。
 
-![点击“立即呼叫我”后页面会出现这样一个PIN码，此时别乱动，注意接听电话。电话里说什么貌似不太重要，我接听后没听它说直接调出键盘输入了这个PIN码，然后页面就变成下面那样了](https://raw.githubusercontent.com/11900611/images/master/ladder_008.png)
+![点击“立即呼叫我”后页面会出现这样一个PIN码，此时别乱动，注意接听电话。电话里说什么貌似不太重要，我接听后没听它说直接调出键盘输入了这个PIN码，然后页面就变成下面那样了](https://raw.githubusercontent.com/iredscarf/images/master/ladder_008.png)
 
-![接听电话后，调出键盘输入网页显示的PIN码，就会完成验证](https://raw.githubusercontent.com/11900611/images/master/ladder_009.png)
+![接听电话后，调出键盘输入网页显示的PIN码，就会完成验证](https://raw.githubusercontent.com/iredscarf/images/master/ladder_009.png)
 
 #### 　　7、完成电话认证后，接着选择“免费”方案
 
-![ ](https://raw.githubusercontent.com/11900611/images/master/ladder_010.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_010.png)
 
 #### 　　至此，AWS账号就创建完成了。
 
-![ ](https://raw.githubusercontent.com/11900611/images/master/ladder_011.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_011.png)
 
 * * *
 
@@ -86,19 +86,19 @@ meta:
 
 #### 　　1、登录控制台，在右上角的地区中选择延迟低的服务器，一般亚太地区（东京）相对于北美的服务器延迟要低一些。
 
-![可以在 http://www.cloudping.info/ 上ping一下看看你的地区连接哪个服务器延迟低，ping多几次，取ping值最低的。](https://raw.githubusercontent.com/11900611/images/master/ladder_012.png)
+![可以在 http://www.cloudping.info/ 上ping一下看看你的地区连接哪个服务器延迟低，ping多几次，取ping值最低的。](https://raw.githubusercontent.com/iredscarf/images/master/ladder_012.png)
 
 #### 　　2、点击左上角的“服务”，选择“EC2”
 
-![ ](https://raw.githubusercontent.com/11900611/images/master/ladder_014.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_014.png)
 
 　　`惊！这时突然出现状况了（之前申请的第一个AWS账户并未遇到过，没遇到这个状况的直接跳到3、），提示我的服务需要24小时才能完全激活，下面的事项中第2点提示我检查电子邮件，可能需要提供额外信息，于是我便去邮箱查看，果然……`
 
-![黑人三问？？？](https://raw.githubusercontent.com/11900611/images/master/ladder_015.png)
+![黑人三问？？？](https://raw.githubusercontent.com/iredscarf/images/master/ladder_015.png)
 
 　　`我的确收到一封来自AWS的邮件，上面提示我未被授权访问AmazonRoute53或CloudFront，要求我提供一个有效的商业网址，并附上我的email地址和我的AWS账户和AWS账户ID吧啦吧啦什么的`
 
-![黑人依然未搞清楚状况](https://raw.githubusercontent.com/11900611/images/master/ladder_016.png)
+![黑人依然未搞清楚状况](https://raw.githubusercontent.com/iredscarf/images/master/ladder_016.png)
 
 　　`百度后，说是把以下信息按以下格式发到[aws-verification@amazon.com](mailto:aws-verification@amazon.com)这个地址然后耐心等待：`
 ```
@@ -108,57 +108,57 @@ AWS Account ID: ************  （这里在网页右上角，“我的账户”�
 AWS Account Name: MyAWS-US-CA （这里填你注册时填的Account Name，在账户信息中也有显示）
 ```
 
-![ ](https://raw.githubusercontent.com/11900611/images/master/ladder_017.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_017.png)
 
 　　`耐心等待之后等来一封邮件说服务开通了，然并卵……`
 
-![虽然如此，可是点EC2还是黑人依旧](https://raw.githubusercontent.com/11900611/images/master/ladder_018.png)
+![虽然如此，可是点EC2还是黑人依旧](https://raw.githubusercontent.com/iredscarf/images/master/ladder_018.png)
 
 　　`再一会，一封中文邮件来了，这时障碍确切消除，可以继续了`
 
-![Perfect !](https://raw.githubusercontent.com/11900611/images/master/ladder_019.png)
+![Perfect !](https://raw.githubusercontent.com/iredscarf/images/master/ladder_019.png)
 
 #### 　　3、左上角“服务”--“EC2”，然后点“启动实例”
 
-![ ](https://raw.githubusercontent.com/11900611/images/master/ladder_020.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_020.png)
 
 #### 　　4、选择Ubuntu系统的（这个看个人的喜好，之前看的教程也是使用Ubuntu来搭建的，反正别的也不会，所以也就继续用Ubuntu吧）
 
-![选择Ubuntu的，注意有标注“符合条件的免费套餐”  ](https://raw.githubusercontent.com/11900611/images/master/ladder_021.png)
+![选择Ubuntu的，注意有标注“符合条件的免费套餐”  ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_021.png)
 
 #### 　　5、步骤2中系统已经默认为我们选好了，不用改变，直接右下角“下一步：配置实例详细信息”
 
-![直接点下一步](https://raw.githubusercontent.com/11900611/images/master/ladder_022.png)
+![直接点下一步](https://raw.githubusercontent.com/iredscarf/images/master/ladder_022.png)
 
 #### 　　6、步骤3也不需要作任何修改，直接“下一步：添加存储”
 
-![直接点下一步](https://raw.githubusercontent.com/11900611/images/master/ladder_023.png)
+![直接点下一步](https://raw.githubusercontent.com/iredscarf/images/master/ladder_023.png)
 
 #### 　　7、选择存储方案，默认是8GB，但是我们可以免费使用30GB，用尽它，然后点击下一步
 
-![设置30GB，然后下一步](https://raw.githubusercontent.com/11900611/images/master/ladder_024.png)
+![设置30GB，然后下一步](https://raw.githubusercontent.com/iredscarf/images/master/ladder_024.png)
 
 #### 　　8、这边暂时不用修改，直接下一步
 
-![直接点下一步](https://raw.githubusercontent.com/11900611/images/master/ladder_025.png)
+![直接点下一步](https://raw.githubusercontent.com/iredscarf/images/master/ladder_025.png)
 
 #### 　　9、配置安全组，“添加规则”——类型选“自定义TCP规则”——端口填“8848”——来源选择“任何位置”
 
 　　端口貌似不能随意设，具体规则我也不太懂，之前看的教程是填8848，老网民对这个数字挺亲切，就用了，填8888用过也是可以的，反正添加了什么端口自己记得就好，这个端口号后面要用到，然后点击右下角“审核和启动”
 
-![ ](https://raw.githubusercontent.com/11900611/images/master/ ladder_026.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ ladder_026.png)
 
 #### 　　10、先点击右下角的“启动”，然后弹出一个密钥窗口，选择“创建新密钥对”，接着填写密钥名称，点击“下载密钥对”（必须保存好，后面用到）， 最后点击“启动实例”
 
-![ ](https://raw.githubusercontent.com/11900611/images/master/ladder_027.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_027.png)
 
 #### 　　11、接着初始化主机，最后就是显示这个界面了，点击“查看实例”
 
-![ ](https://raw.githubusercontent.com/11900611/images/master/ladder_028.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_028.png)
 
 #### 　　12、这样，主机就设置完成了，记住公有IP，后面要用到
 
-![把红框内的信息都记录下来吧](https://raw.githubusercontent.com/11900611/images/master/ladder_029.png)
+![把红框内的信息都记录下来吧](https://raw.githubusercontent.com/iredscarf/images/master/ladder_029.png)
 
 #### 　　至此，AWS的服务器就创建完毕，下面接着连接上它，并做一系列设置。
 
@@ -176,20 +176,20 @@ AWS Account Name: MyAWS-US-CA （这里填你注册时填的Account Name，在�
 
 #### 　　1、打开XShell，选择“工具”菜单项，再选择下拉的“用户密钥管理者”
 
-![ ](https://raw.githubusercontent.com/11900611/images/master/ladder_030.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_030.png)
 
 #### 　　2、在“用户密钥”中选择“导入”按钮，导入之前准备好的PEM文件，导入后关闭该界面
 
-![](https://raw.githubusercontent.com/11900611/images/master/ladder_031.png)
-![ ](https://raw.githubusercontent.com/11900611/images/master/ladder_032.png)
+![](https://raw.githubusercontent.com/iredscarf/images/master/ladder_031.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_032.png)
 
 #### 　　3、选择“文件”菜单下的“新建”项，开始创建一个到云服务器的会话连接
 
-![ ](https://raw.githubusercontent.com/11900611/images/master/ladder_033.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_033.png)
 
 #### 　　4、在左侧列表框中选择“连接“，在右侧界面中输入会话名称和主机IP，先别急着点确定
 
-![填完别点确定先，看下一步](https://raw.githubusercontent.com/11900611/images/master/ladder_034.png)
+![填完别点确定先，看下一步](https://raw.githubusercontent.com/iredscarf/images/master/ladder_034.png)
 
 
 #### 　　5、再在左侧列表框中选择“用户身份验证”
@@ -201,20 +201,20 @@ AWS Account Name: MyAWS-US-CA （这里填你注册时填的Account Name，在�
 　　“密码”项留空
 　　点击“确定”按钮，完成设置
 
-![ ](https://raw.githubusercontent.com/11900611/images/master/ladder_035.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_035.png)
 
 #### 　　6、在点击“确定”后，会弹出“会话”窗体，该窗体保存着刚刚创建的会话，选择要进行连接的会话后，点击“连接”按钮
 
-![ ](https://raw.githubusercontent.com/11900611/images/master/ladder_036.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_036.png)
 
 #### 　　7、如果是第一次连接，会弹出一个警告框，如果只是临时用的会话连接，则选择“一次性接受”按钮；如果是以后要一直使用，则选择“接受并保存”按钮；这里我们选择“接收并保存”
 
-![ ](https://raw.githubusercontent.com/11900611/images/master/ladder_037.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_037.png)
 
 
 #### 　　8、之后，XShell会打印出成功登录后的终端内容
 
-![ ](https://raw.githubusercontent.com/11900611/images/master/ladder_038.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_038.png)
 
 * * *
 
@@ -230,7 +230,7 @@ sudo -s
 
 　　你会发现光标前面的“$”变成了“#”，并且行首的“ubuntu”也变成了“root”
 
-![ ](https://raw.githubusercontent.com/11900611/images/master/ladder_039.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_039.png)
 
 #### 　　2、接下来输入如下命令并回车
 
@@ -240,7 +240,7 @@ apt-get update
 
 　　就当作是在安装更新包吧，完成后会显示“Reading package lists… Done”
 
-![ ](https://raw.githubusercontent.com/11900611/images/master/ladder_040.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_040.png)
 
 #### 　　3、然后输入如下命令并回车
 
@@ -250,9 +250,9 @@ apt-get install python-pip
 
 　　安装过程中可能会让你确认［Y/n］，输入y然后回车就好
 
-![注意到了这里要记得输入y回车](https://raw.githubusercontent.com/11900611/images/master/ladder_041.png)
+![注意到了这里要记得输入y回车](https://raw.githubusercontent.com/iredscarf/images/master/ladder_041.png)
 
-![最后是这样的](https://raw.githubusercontent.com/11900611/images/master/ladder_042.png)
+![最后是这样的](https://raw.githubusercontent.com/iredscarf/images/master/ladder_042.png)
 
 #### 　　4、安装关键程序ShadowSocks，输入如下命令并回车
 
@@ -262,7 +262,7 @@ pip install shadowsocks
 
 　　出来一大段字后只要有显示的是“Successfully ...”那么就表示安装成功了
 
-![ ](https://raw.githubusercontent.com/11900611/images/master/ladder_043.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_043.png)
 
 * * *
 
@@ -282,7 +282,7 @@ vi /etc/shadowsocks.json
 　　w   在命令模式中输入w并回车，窗口最下显示“written”，表示所做的更改已保存。
 　　q   在命令模式中输入q并回车，可以退出当前的编辑器。
 ```
-![ ](https://raw.githubusercontent.com/11900611/images/master/ladder_044.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_044.png)
 
 #### 　　2、单一用户配置（推荐）
 
@@ -301,7 +301,7 @@ vi /etc/shadowsocks.json
 }
 ```
 
-![ ](https://raw.githubusercontent.com/11900611/images/master/ladder_045.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_045.png)
 
 ```
 　　这里需要注意几个地方：
@@ -318,7 +318,7 @@ vi /etc/shadowsocks.json
 
 #### 　　输入完之后按Esc退出编辑，然后先按:wq回车保存
 
-![输入完后先按一下Esc键推出编辑，然后再输入“:wq”回车保存](https://raw.githubusercontent.com/11900611/images/master/ladder_046.png)
+![输入完后先按一下Esc键推出编辑，然后再输入“:wq”回车保存](https://raw.githubusercontent.com/iredscarf/images/master/ladder_046.png)
 
 #### 　　3、多用户配置（进阶）
 
@@ -336,7 +336,7 @@ ssserver -c/etc/shadowsocks.json -d start
 
 　　完成后出来两行字，最后一个单词明明白白告诉你“started”
 
-![ ](https://raw.githubusercontent.com/11900611/images/master/ladder_047.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_047.png)
 
 #### 　　2、然后我们额外做一步设置，简单来说就是“添加开机启动项”，让以后服务器重启之后SS会自动开始工作。
 
@@ -348,7 +348,7 @@ vi /etc/rc.local
 
 　　然后按“i”，在第二行处加入一个空行，把上面的命令（ssserver -c/etc/shadowsocks.json -d start）完整地输入进去，然后Esc，输入“:wq”保存退出
 
-![ ](https://raw.githubusercontent.com/11900611/images/master/ladder_048.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_048.png)
 
 #### 　　至此，在AWS上搭建Shadowsocks服务端的操作已经全部完成了，把当前代码窗口（XShell）关掉，下面可以爬梯子了！
 
@@ -368,11 +368,11 @@ vi /etc/rc.local
 
 #### 　　1、第一次运行Shadowsocks前，建议先新建一个文件夹把Shadowsocks的程序移进去再运行，因为运行后会生成几个文件，如果你随便放个地方就运行，怕弄丢了那几个文件就不好了，所以我们还是把它们安排一下比较好
 
-![就是红色框框里的几个新生小伙伴](https://raw.githubusercontent.com/11900611/images/master/ladder_049.png)
+![就是红色框框里的几个新生小伙伴](https://raw.githubusercontent.com/iredscarf/images/master/ladder_049.png)
 
 #### 　　2、运行Shadowsocks之后，在系统托盘可以看到有个纸飞机，然后进行设置
 
-![](https://raw.githubusercontent.com/11900611/images/master/ladder_050.png)
+![](https://raw.githubusercontent.com/iredscarf/images/master/ladder_050.png)
 
 　　通用设置就是：
 
@@ -380,13 +380,13 @@ vi /etc/rc.local
   
 　　（2）编辑服务器，输入之前记录的公网IP，设置的端口，密码，然后确定
 
-![](https://raw.githubusercontent.com/11900611/images/master/ladder_051.png)
+![](https://raw.githubusercontent.com/iredscarf/images/master/ladder_051.png)
 
 　　（3）右键小飞机，启用系统代理
   
 　　（4）代理方式：自动模式（只有被墙的才会走代理），全局代理（国内网站也会走代理）
 
-![ ](https://raw.githubusercontent.com/11900611/images/master/ladder_052.png)
+![ ](https://raw.githubusercontent.com/iredscarf/images/master/ladder_052.png)
 
 
 * * *
