@@ -6,6 +6,7 @@ intensedebate_comments: true
 jekyll-feed: true
 baseurl: 
 url: "https://iRedScarf.github.io"
+favicon: /favicon.ico
 
 google_analytics:
 # cayman-blog date format
