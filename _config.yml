@@ -1,10 +1,11 @@
+name: iRedScarf
 title: A Red Scarf Shared Something Here
 description: 
 show_downloads: false
 intensedebate_comments: true
-
-baseurl: # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
-url: "https://iRedScarf.github.io" # change this to the base hostname & protocol for your site
+jekyll-feed: true
+baseurl: 
+url: "https://iRedScarf.github.io"
 
 google_analytics:
 # cayman-blog date format
@@ -15,7 +16,7 @@ cayman-blog:
 theme: # leave it empty
 
 # social
-author: "A Red Scarf"
+author: "iRedScarf"
 image: /iRedScarf.png
 twitter:
   username: 
