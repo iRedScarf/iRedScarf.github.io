@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About
-tagline: In fact, there is nothing to be here
+title:  
+tagline: Haha, you found me!
 permalink: /about.html
 ---
 
-[Go to the Home Page]({{ site.url }}{{ site.baseurl }})
+In fact, I don't know how to delete this page...

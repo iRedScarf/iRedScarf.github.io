@@ -40,7 +40,7 @@ meta:
 
 #### 　　1、登录AWS网站
 
-　　AWS官网：[https://aws.amazon.com/cn/](https://link.jianshu.com/?t=https:/aws.amazon.com/cn/)
+　　AWS官网：[https://aws.amazon.com/cn/](https:/aws.amazon.com/cn/)
 
 #### 　　2、点击创建免费账户
 

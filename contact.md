@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Contact
-tagline: There's nothing here, too.
+title: Chat
+tagline: We can chat here.
 ---
 
-[Go to the Home Page]({{ site.url }}{{ site.baseurl }})
