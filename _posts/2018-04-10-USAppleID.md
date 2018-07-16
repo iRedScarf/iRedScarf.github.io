@@ -28,7 +28,7 @@ meta:
 
 ![代理挂全局模式](https://raw.githubusercontent.com/iRedScarf/images/master/AppleID_US_001.png)
 
-> 温馨链接：[《利用AWS搭建私有Shadowsocks服务器实现科学上网完全教程》](http://iredscarf.github.io/tech/2018/04/01/Ladder.html)
+> 温馨链接：[《利用AWS搭建私有Shadowsocks服务器实现科学上网完全教程》](http://localhost:4000/tech/2018/04/01/Ladder.html)
 
 * * *
 
